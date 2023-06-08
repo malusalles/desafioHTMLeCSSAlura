@@ -1,0 +1,54 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cabecalho__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cabecalho__logo__titulo {
+    color: var(--cinza);
+    font-size: 18px;
+}
+
+.cabecalho__paginas {
+    display: flex;
+    gap: 1.3em;
+}
+
+
+
+.cabecalho__paginas__item {
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.cabecalho__botoes__item {
+    border: none;
+    text-decoration: none;
+    background-color: var(--cor-de-fundo);
+    cursor: pointer;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    padding: 0.8rem 1rem;
+    /*border: none;
+    text-decoration: none;
+    background-color: var(--cor-de-fundo);*/
+}
+
+
+#cadastrar:active {
+    background-color: var(--vinho);
+    color: var(--cor-de-fundo);
+}

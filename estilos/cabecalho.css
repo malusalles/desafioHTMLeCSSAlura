@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1em;
+    margin: 1em;
     font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 16px;

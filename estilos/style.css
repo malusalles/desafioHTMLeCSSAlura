@@ -1,9 +1,15 @@
 @import url("/estilos/cabecalho.css");
 @import url("/estilos/banner.css");
+@import url("/estilos/metricas.css");
+@import url("/estilos/procurandoTalentos.css");
+@import url("/estilos/vagas.css");
+@import url("/estilos/depoimentos.css");
+@import url("/estilos/rodape.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root {
     --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo-secundaria: #F9FAFB;
     --cinza: #3A404E;
     --cinza-claro: #667085;
     --cinza-escuro: #101828;

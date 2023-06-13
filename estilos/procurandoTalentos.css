@@ -1,0 +1,39 @@
+.procurandoTalentos {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0 2rem;
+}
+
+.procurandoTalentos__titulo__div {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.7em;
+}
+
+.procurandoTalentos__titulo__h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vinho);
+    text-align: center;
+}
+
+.procurandoTalentos__texto-principal {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.procurandoTalentos__paragrafo {
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.procurandoTalentos__imagem {
+    margin: 1rem 0 2rem;
+}
